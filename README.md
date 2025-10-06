@@ -42,24 +42,28 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-![Screenshot 2024-08-20 084108](https://github.com/user-attachments/assets/b73cf7c2-325c-4978-9c88-baad063ce74e)
+<img width="1920" height="983" alt="image" src="https://github.com/user-attachments/assets/f3e985d3-3e64-4371-98e4-53a012364ec5" />
+
 
 cat < file2
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/ba9a3007-d5ce-406e-adf1-b88bb1ee8502)
+<img width="1920" height="983" alt="image" src="https://github.com/user-attachments/assets/446251d6-3dfe-4397-b56d-b439ca17d475" />
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/df93ee81-48f6-4914-8113-88ef4db2972e)
+<img width="1920" height="983" alt="image" src="https://github.com/user-attachments/assets/7fac5095-44f6-487e-8bb3-90500c80105f" />
+
 
 comm file1 file2
  ## OUTPUT
- ![image](https://github.com/user-attachments/assets/d029ef16-1ead-4f69-a412-6b6fbf0e5e6e)
+ <img width="1920" height="983" alt="image" src="https://github.com/user-attachments/assets/64a73282-fc4c-4067-877e-1d3032a3e6aa" />
+
  
 diff file1 file2
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/bef6da6f-498e-4e10-a04b-0d25f77ecbae)
+<img width="1920" height="983" alt="image" src="https://github.com/user-attachments/assets/a753b761-60d9-45ba-add9-8cd2602ff69d" />
+
 
 #Filters
 ### Create the following files file11, file22 as follows:
@@ -78,14 +82,18 @@ cat > file22
 ```
 cut -c1-3 file11
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/a5fc1124-f6c3-47a6-a4d4-f1f0ffc05ed0)
+<img width="1920" height="983" alt="image" src="https://github.com/user-attachments/assets/e8ab1064-2415-4005-b8ad-b4d85e484a03" />
+
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/3227c125-aefb-479d-a6c6-dcd577a604ed)
+<img width="1920" height="983" alt="image" src="https://github.com/user-attachments/assets/50a447f6-7492-4986-8247-35fa41274879" />
+
 
 cut -d "|" -f 2 file22
-## OUT![image](https://github.com/user-attachments/assets/ea43c91a-070a-4d18-8189-b6f4173112a4)
+## OUTPUT
+<img width="1920" height="983" alt="image" src="https://github.com/user-attachments/assets/ddfe982c-d000-496c-a097-6d692e65ceeb" />
+
 PUT
 cat < newfile 
 ```
@@ -98,19 +106,22 @@ Hello world
 hello world
 grep Hello newfile 
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/6e9a43e7-dd1b-42a3-8d49-46760a9b8cfe)
+<img width="1920" height="983" alt="image" src="https://github.com/user-attachments/assets/b961a26d-2c61-42da-8778-6318d8938b77" />
+
 
 grep hello newfile 
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/b2677f1c-613c-43b6-bbb5-b707cb7d6b67)
+<img width="1920" height="983" alt="image" src="https://github.com/user-attachments/assets/f6ec5bcd-dcbc-40dd-a2d7-bcbda045e77e" />
+
 
 grep -v hello newfile 
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/5b6e60e3-50e4-4aff-9624-551cf49e98a0)
+<img width="1920" height="983" alt="image" src="https://github.com/user-attachments/assets/9b27e406-0ff5-4ab2-8668-29fb4cd5c802" />
 
 cat newfile | grep -i "hello"
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/443e934e-8f0e-49c4-a9b8-595c8449df54)
+<img width="1920" height="983" alt="image" src="https://github.com/user-attachments/assets/9d6ff131-653c-44a0-825c-0b69d9a8e0c9" />
+
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
