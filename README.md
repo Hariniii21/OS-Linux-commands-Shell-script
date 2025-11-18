@@ -42,30 +42,28 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-<img width="1920" height="983" alt="image" src="https://github.com/user-attachments/assets/f3e985d3-3e64-4371-98e4-53a012364ec5" />
+<img width="538" height="150" alt="image" src="https://github.com/user-attachments/assets/5e8ebd3e-32a6-45fe-a002-c40236c37e01" />
 
 
 cat < file2
 ## OUTPUT
-<img width="1920" height="983" alt="image" src="https://github.com/user-attachments/assets/446251d6-3dfe-4397-b56d-b439ca17d475" />
+<img width="563" height="171" alt="image" src="https://github.com/user-attachments/assets/197b133d-39a5-40df-94dc-4c6b093847b6" />
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
-<img width="1920" height="983" alt="image" src="https://github.com/user-attachments/assets/7fac5095-44f6-487e-8bb3-90500c80105f" />
+<img width="639" height="79" alt="image" src="https://github.com/user-attachments/assets/b7a3aab2-bca0-4bfd-9a70-357aeab67a80" />
 
 
 comm file1 file2
  ## OUTPUT
- <img width="1920" height="983" alt="image" src="https://github.com/user-attachments/assets/64a73282-fc4c-4067-877e-1d3032a3e6aa" />
+ <img width="613" height="226" alt="image" src="https://github.com/user-attachments/assets/4ab44267-58dc-4bd6-9590-425e79f7bea9" />
 
- 
 diff file1 file2
 ## OUTPUT
-<img width="1920" height="983" alt="image" src="https://github.com/user-attachments/assets/a753b761-60d9-45ba-add9-8cd2602ff69d" />
+<img width="578" height="282" alt="image" src="https://github.com/user-attachments/assets/91352c2f-419e-47f1-ac2f-ee4381cc7dfa" />
 
 
-#Filters
 ### Create the following files file11, file22 as follows:
 cat > file11
 ```
@@ -82,17 +80,17 @@ cat > file22
 ```
 cut -c1-3 file11
 ## OUTPUT
-<img width="1920" height="983" alt="image" src="https://github.com/user-attachments/assets/e8ab1064-2415-4005-b8ad-b4d85e484a03" />
+<img width="568" height="124" alt="image" src="https://github.com/user-attachments/assets/5ed4d715-7db8-47f7-87bc-3029f5fd1744" />
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-<img width="1920" height="983" alt="image" src="https://github.com/user-attachments/assets/50a447f6-7492-4986-8247-35fa41274879" />
+<img width="538" height="167" alt="image" src="https://github.com/user-attachments/assets/4128dce0-73e1-4832-87ad-57dc0efef5da" />
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-<img width="1920" height="983" alt="image" src="https://github.com/user-attachments/assets/ddfe982c-d000-496c-a097-6d692e65ceeb" />
+<img width="557" height="154" alt="image" src="https://github.com/user-attachments/assets/581edd50-15d2-41cc-8b5a-2aa0a0a0ef48" />
 
 PUT
 cat < newfile 
@@ -106,31 +104,34 @@ Hello world
 hello world
 grep Hello newfile 
 ## OUTPUT
-<img width="1920" height="983" alt="image" src="https://github.com/user-attachments/assets/b961a26d-2c61-42da-8778-6318d8938b77" />
+<img width="581" height="75" alt="image" src="https://github.com/user-attachments/assets/1395c2be-9997-4889-b1d9-484d2a6acb07" />
 
 
 grep hello newfile 
 ## OUTPUT
-<img width="1920" height="983" alt="image" src="https://github.com/user-attachments/assets/f6ec5bcd-dcbc-40dd-a2d7-bcbda045e77e" />
-
+<img width="537" height="79" alt="image" src="https://github.com/user-attachments/assets/4133820b-1d81-4c77-ba50-b7245ce4847d" />
 
 grep -v hello newfile 
 ## OUTPUT
-<img width="1920" height="983" alt="image" src="https://github.com/user-attachments/assets/9b27e406-0ff5-4ab2-8668-29fb4cd5c802" />
+<img width="531" height="76" alt="image" src="https://github.com/user-attachments/assets/3981f5cd-008b-485c-b34e-aa557cec1630" />
 
 cat newfile | grep -i "hello"
 ## OUTPUT
-<img width="1920" height="983" alt="image" src="https://github.com/user-attachments/assets/9d6ff131-653c-44a0-825c-0b69d9a8e0c9" />
+<img width="595" height="101" alt="image" src="https://github.com/user-attachments/assets/7733c140-c5de-458e-899d-f811b3eff698" />
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/a9d87d19-5aff-4f98-aeb3-52d8a24cf612)
+<img width="561" height="76" alt="image" src="https://github.com/user-attachments/assets/c9e738c6-a503-47ef-b406-ab28809f0866" />
+
+
 grep -R ubuntu /etc
 ## OUTPUT
+<img width="1512" height="835" alt="image" src="https://github.com/user-attachments/assets/8296fadf-6ed2-412d-aa5f-02acae99382d" />
+
 grep -w -n world newfile   
 ## OUTPUT
-![image](https://github.com/user-attachments/assets/a6aa4f67-e600-4c4c-891c-e15f37f2add6)
+<img width="574" height="102" alt="image" src="https://github.com/user-attachments/assets/3d6f13de-cb43-48ab-9e73-e8273ddf1ca7" />
 
 cat < newfile 
 ```
